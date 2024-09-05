@@ -40,7 +40,7 @@ namespace SistemaDeCompras.Controllers
             if(order.Count() > 0)
             {
                 var orderSum = order.Sum(item => item.precio);
-                return Ok(orderSum);
+                return Ok(orderSum); 
                
             }
             return BadRequest("La orden no es correcta");
