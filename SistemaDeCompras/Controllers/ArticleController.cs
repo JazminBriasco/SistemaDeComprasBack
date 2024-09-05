@@ -30,7 +30,7 @@ namespace SistemaDeCompras.Controllers
             return Ok(sellers);
         }
 
-        /* Generamos un enpoint post para realizar la suma de los productos, 
+        /* Generamos un endpoint post para realizar la suma de los productos, 
          * en este caso tenemos una validación para evitar arreglos nulos,
          * devolvemos la suma.
          */
